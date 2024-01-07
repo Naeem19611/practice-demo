@@ -1,0 +1,288 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header {
+    position: relative;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100vh;
+    background-image: url('images/banner/banner1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.header-title {
+    position: absolute;
+    top: 50%;
+    right: 150px;
+    transform: translateY(-50%);
+    max-width: 300px;
+}
+
+.title {
+    color: #151414;
+    text-align: right;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.header-desc {
+    color: #444343;
+    text-align: right;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.btn-primary {
+    margin-top: 22px;
+    align-items: end;
+    margin-left: 194px;
+    border-radius: 5px;
+    background: #F15B22;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+}
+
+/* Hero Section Style */
+
+.hero {
+    display: flex;
+    align-items: center;
+    margin: 100px 70px 0px 70px;
+    /* margin: 0 auto; */
+}
+
+.hero-left {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.hero-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-right {
+    /* flex: 1;  */
+    margin-left: 20px;
+
+}
+
+.hero-title {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.hero-desc {
+    margin-bottom: 22px;
+    margin-right: 150px;
+}
+
+.content {
+    text-align: left;
+}
+
+.icon-span i {
+    margin-right: 10px;
+}
+
+.fa-check {
+    color: aqua;
+}
+
+
+.icon-span span {
+    /* margin-left: 10px; */
+    display: inline-block;
+    color: #444343;
+}
+
+.hero-title,
+.hero-desc {
+    text-align: left;
+}
+
+
+/* Section Plan style start */
+
+.plan {
+    color: #151414;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.plan-title {
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.plan-group {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.p-same-class {
+    font-size: 22px;
+    color: #020202;
+    margin-bottom: 10px;
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.watch-image {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+.img-container {
+    position: relative;
+    overflow: hidden;
+    /* background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);        */
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.text-content {
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    transform: translate(-110%, -110%);
+    color: #ffffff;
+    z-index: 1;
+    text-align: left;
+}
+
+.watch-heading,
+.call {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.watch-heading {
+    font-size: 22px;
+}
+
+.call {
+    font-size: 14px;
+    padding: 10px 20px;
+    color: #F15B22;
+    border-radius: 7px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    transition: all ease 0.2s;
+    margin-top: 15px;
+}
+
+.call:hover {
+    background: #F15B22;
+    color: wheat;
+}
+
+.mindset {
+    display: block;
+}
+
+/* Footer section style */
+
+footer {
+    padding-top: 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+.footer-bg {
+    background: #151414;
+    padding-top: 50px;
+}
+
+.footer-left h3 {
+    color: white;
+    font-size: 32px;
+}
+
+.footer-left p {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 10px;
+    width: 300px;
+}
+
+.social-icon {
+    padding-top: 15px;
+}
+
+.social-icon i {
+    border-radius: 50%;
+    background-color: white;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.social-icon .fa-facebook {
+    color: blue;
+}
+
+.social-icon .fa-twitter {
+    color: rgb(46, 134, 250);
+}
+
+.social-icon .fa-youtube {
+    color: red;
+}
+
+.footer-right h4 {
+    font-size: 22px;
+    color: white;
+}
+
+.footer-right input {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid rgb(83, 83, 83);
+    outline: 0;
+    background-color: #151414;
+    border-radius: 7px;
+    color: white;
+}
+
+.footer-right input::placeholder {
+    color: rgb(119, 114, 114);
+}
+
+.footer-right-button {
+    display: block;
+    padding: 10px 20px;
+    color: #F15B22;
+    border-radius: 7px;
+    border: none;
+}
